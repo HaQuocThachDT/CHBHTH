@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "LIBRARI STORE";
+
+    Layout = "~/Views/Shared/_LayoutClient2.cshtml";
+}
+@using CHBHTH.Models;
+
+
+<br />
+<header class="bg-body py-0">
+    <center>
+        <div class="row">
+            <div class="col-md-16">
+                <img src="~/Images/Trangchu1.jpg" width="150%" />
+            </div>
+        </div>
+    </center>
+</header>
+<br />
+<div class="spnoibat">
+    <center>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="~/Images/8.jpg" class="img-responsive" alt="" width="90%" />
+            </div>
+            <div class="col-md-4">
+                <img src="~/Images/dondoc.jpg" class="img-responsive" alt="" width="90%" />
+            </div>
+            <div class="col-md-4">
+                <img src="~/Images/Sachhay.jpg" class="img-responsive" alt="" width="90%" />
+            </div>
+        </div>
+    </center>
+</div> <br />
+
+    @Html.Action("suapartial", "sanpham")
+
+    @Html.Action("dauanpartial", "sanpham")
+
+<div>
+    <center>
+        <img class="img-responsive" src="~/Images/QUATANG.jpg" width="70%" />
+    </center>
+</div> <br />
+
+    @Html.Action("raupartial", "sanpham")
+
+
